@@ -15,12 +15,12 @@ const Hero = () => {
   }
 
   return (
-  
+
       <section id="home" className="xl:pb-[160px]2xl:pb-[200px] relative z-10 overflow-hidden pt-[60px] pb-16 md:pb-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto flex max-w-[1000px] flex-wrap items-center justify-center md:flex-nowrap">
+              <div className="mx-auto flex max-w-[1000px] flex-col items-center justify-center md:flex-nowrap">
                 <div className="mr-6 flex w-[240px] flex-col items-center justify-center">
                   <div className="container-image">
                     <div className="container-inner">
@@ -39,10 +39,12 @@ const Hero = () => {
                     </div>
                   </div>
                 </div>
-                <h1 className="w-80 text-2xl font-bold leading-tight text-black dark:text-white sm:w-[476px] sm:text-4xl sm:leading-tight md:w-full md:text-5xl md:leading-tight">
-                  Desenvolvedor Front-End Atuação com
+                <h1 className="w-80 text-2xl font-bold leading-tight text-black dark:text-white sm:w-[476px] sm:text-4xl sm:leading-tight md:w-full md:text-5xl md:leading-tight text-center">
+                  Desenvolvedor Full Stack
+									</h1>
+									<h1 className="w-80 text-2xl font-bold leading-tight text-black dark:text-white sm:w-[476px] sm:text-4xl sm:leading-tight md:w-full md:text-5xl md:leading-tight text-center">
                   <TypeAnimation
-                    sequence={[" Javascript", 2500, " Typescript", 2500, " ReactJS", 2500, " NextJS", 2500, " React Native", 2500]}
+                    sequence={[" Javascript", 2500, " Typescript", 2500, " ReactJS", 2500, " NextJS", 2500," NodeJS",2500]}
                     className="gradient-words mb-5 text-2xl font-bold leading-tight  sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
                     wrapper="span"
                     speed={4}
@@ -77,7 +79,7 @@ const Hero = () => {
           <Svgs type="hero" />
         </div>
       </section>
-    
+
   );
 };
 
