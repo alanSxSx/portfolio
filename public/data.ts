@@ -5,7 +5,7 @@ export const dataAbout = [
         "Desenvolvimento de um novo site para empresa, FULIG - Fundição de Ligas LTDA ",
       arraySkills: ["React JS", "Next JS", "Netlify Forms", "Prime React", "CSS Modules"],
       image: "./fulig/fulig1.jpeg",
-      link: "",
+      link: "https://fulig.netlify.app/",
       sizeImg: {
         width: 668,
         height: 401,
@@ -27,7 +27,7 @@ export const dataAbout = [
       paragraph: "Aplicação utilizada pra todos os funcionários realizarem o registro de almoço diário",
       arraySkills: ["ReactJS", "Axios","Prime React","Token JWT","Secure Local Storage","Clound Computing"],
       image: "./registro_almoco/reg1.jpeg",
-      link: "https://konkero.com.br/",
+      link: "https://registrodealmoco.netlify.app/",
       sizeImg: {
         width: 668,
         height: 457,
@@ -49,7 +49,7 @@ export const dataAbout = [
       paragraph: "Parte de Backend do projeto de registro de almoço.",
       arraySkills: ["JavaScript", "NodeJS","Autenticação de rotas com JWT","Sequelize","Conexão com banco Mysql"],
       image: "./backend/backend1.png",
-      link: "https://konkero.com.br/",
+      link: "https://github.com/alanSxSx/registro_de_almoco_backend",
       sizeImg: {
         width: 668,
         height: 457,
@@ -71,7 +71,7 @@ export const dataAbout = [
       paragraph: "Pomodoro é um método de gerenciamento de tempo. A técnica consiste na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos.",
       arraySkills: ["ReactJS", "NextJS","TypeScript","CSS","JavaScript","HTML"],
       image: "./pomodoro/pomodoro1.png",
-      link: "https://konkero.com.br/",
+      link: "https://github.com/alanSxSx/pomodoro-app",
       sizeImg: {
         width: 668,
         height: 457,
@@ -93,7 +93,7 @@ export const dataAbout = [
       paragraph: "To do List, também conhecida como Lista de Tarefas, oferece uma maneira eficiente de priorizar e acompanhar as tarefas pendentes.",
       arraySkills: ["ReactJS","CSS","JavaScript","HTML","CRUD em API","Axios","Redux"],
       image: "./todoList/todo1.png",
-      link: "https://konkero.com.br/",
+      link: "https://github.com/alanSxSx/to-do-list",
       sizeImg: {
         width: 668,
         height: 457,
@@ -115,7 +115,7 @@ export const dataAbout = [
       paragraph: "Costs foi um projeto desenvolvido em um tutorial com Matheus Battisti.",
       arraySkills: ["ReactJS","CSS Modules","JavaScript","HTML","CRUD em API"],
       image: "./costs/Costs1.png",
-      link: "https://konkero.com.br/",
+      link: "https://github.com/alanSxSx/costs-full",
       sizeImg: {
         width: 668,
         height: 457,
