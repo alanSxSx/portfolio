@@ -4,14 +4,14 @@ import { Svgs } from "../Common/Svgs";
 
 const Footer = () => {
   return (
-    
+
       <footer className="relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24">
         <div className="not-animate container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto mb-12 max-w-[360px] text-center lg:mb-16">
                 <p className="text-3xl font-bold leading-relaxed text-black dark:text-white">Alan Barbosa</p>
-                <p className="mb-5 text-xl font-medium leading-relaxed text-body-color">Desenvolvedor Front-End</p>
+                <p className="mb-5 text-xl font-medium leading-relaxed text-body-color">Desenvolvedor Full Stack</p>
                 <div className="flex justify-center">
                   <a href="https://www.linkedin.com/in/alan-barbosa-4b6987277/" aria-label="social-link" className="mr-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#4a6cf7" viewBox="0 0 24 24">
@@ -37,7 +37,7 @@ const Footer = () => {
           <Svgs type="cube" />
         </div>
       </footer>
-   
+
   );
 };
 

@@ -1,10 +1,9 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
+
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
-import menuData from "./menuData";
+
 
 const Header = () => {
   // Navbar toggle
@@ -39,7 +38,7 @@ const Header = () => {
   const usePathName = usePathname();
 
   return (
-    
+
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
@@ -60,7 +59,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-    
+
   );
 };
 
