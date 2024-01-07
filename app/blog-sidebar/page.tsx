@@ -457,8 +457,6 @@ const BlogSidebarPage = () => {
                   <TagButton text="Business" />
                 </div>
               </div>
-
-              <NewsLatterBox />
             </div>
           </div>
         </div>
