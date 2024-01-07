@@ -8,8 +8,8 @@ import { dataAbout } from "@/public/data";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Portfólio Alan Rodrigues",
+  description: "Este portfólio descreve os projetos e habilidades de Alan Rodrigues",
   // other metadata
 };
 
@@ -28,7 +28,7 @@ export default function Home() {
           <AboutSectionTwo moreDetails={item.moreDetails} sizeImage={item.sizeImg} aspectRatio={item.aspectRatio} />
         </React.Fragment>
       ))}
-      
+
     </>
   );
 }
