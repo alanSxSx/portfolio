@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="w-full px-4">
               <div className="mx-auto mb-12 max-w-[360px] text-center lg:mb-16">
                 <p className="text-3xl font-bold leading-relaxed text-black dark:text-white">Alan Barbosa</p>
-                <p className="mb-5 text-xl font-medium leading-relaxed text-body-color">Desenvolvedor Full Stack</p>
+                <p className="mb-5 text-xl font-medium leading-relaxed text-body-color">Desenvolvedor Front End</p>
                 <div className="flex justify-center">
                   <a href="https://www.linkedin.com/in/alan-barbosa-4b6987277/" aria-label="social-link" className="mr-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#4a6cf7" viewBox="0 0 24 24">

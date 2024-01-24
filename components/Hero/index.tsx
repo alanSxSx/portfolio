@@ -40,7 +40,7 @@ const Hero = () => {
                   </div>
                 </div>
                 <h1 className="w-80 text-2xl font-bold leading-tight text-black dark:text-white sm:w-[476px] sm:text-4xl sm:leading-tight md:w-full md:text-5xl md:leading-tight text-center">
-                  Desenvolvedor Full Stack
+                  Desenvolvedor Front End
 									</h1>
 									<h1 className="w-80 text-2xl font-bold leading-tight text-black dark:text-white sm:w-[476px] sm:text-4xl sm:leading-tight md:w-full md:text-5xl md:leading-tight text-center">
                   <TypeAnimation
